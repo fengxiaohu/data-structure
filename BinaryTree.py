@@ -1,3 +1,8 @@
+'''
+trasversal a binary tree
+'''
+
+
 class Node:
     def __init__(self, data):
         self.left = None
