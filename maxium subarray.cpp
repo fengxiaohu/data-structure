@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
-class Solution {
+class Solution {//brute force
 public:
     int maxSubArray(vector<int>& nums) {
     int maxium=-10000;
@@ -25,7 +25,7 @@ public:
         
     }
 };
-class Solution {
+class Solution {//brute force
 public:
     int maxSubArray(vector<int>& nums) {
     int maxium=-65535;
